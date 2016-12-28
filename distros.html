@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Linux - Free Operating System
+  </title>
+  <!-- UI - material design -->
+  <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+  <script src="bower_components/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+  .demo-layout-transparent {
+    background: url('image/background.jpg') center / cover;
+  }
+  .mdl-card__media {
+    background-color: transparent;
+  }
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  </style>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout demo-layout-transparent">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout-icon"></div>
+      <div class="mdl-layout__header-row">
+        <a href="linux.html"><span class="mdl-layout__title">Linux - Respect software freedom</span></a>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="distros.html">Distributions</a>
+          <a class="mdl-navigation__link" href="org.html">Organization</a>
+          <a class="mdl-navigation__link" href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout__title">Simple Layout</span>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="mdl-grid">
+        <div class="mdl-cell--8-col mdl-cell--2-offset">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title">
+              Linux Distributions
+            </div>
+            <div class="mdl-card__supporting-text">
+              A Linux distribution (often abbreviated as distro) is an operating system made from a software collection, which is based upon the Linux kernel and, often, a package management system. Linux users usually obtain their operating system by downloading one of the Linux distributions, which are available for a wide variety of systems ranging from embedded devices (for example, OpenWrt) and personal computers (for example, Linux Mint) to powerful supercomputers (for example, Rocks Cluster Distribution).
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Ubuntu
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-ubuntu.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:green">
+              BEGINNER
+            </div>
+            <div class="mdl-card__supporting-text">
+              Ubuntu has a very large userbase and community, as such it has a wealth of contributed support resources.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://ubuntu.com">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Linux Mint
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-linux-mint.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:green">
+              BEGINNER
+            </div>
+            <div class="mdl-card__supporting-text">
+              Linux Mint sports a community developed desktop with the aim of providing a more user-friendly option.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://linuxmint.com">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Elementary OS
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-elementary.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:green">
+              BEGINNER
+            </div>
+            <div class="mdl-card__supporting-text">
+              elementary puts design first to ensure that it is not compromising on quality, usability or speed.With a custom-built set of applications and desktop, elementary boasts a unique and cohesive experience.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://elementaryos.io">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Debian
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-debian.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:orange">
+              INTERMEDIATE
+            </div>
+            <div class="mdl-card__supporting-text">
+              As one of the oldest free software operating systems, Debian is very stable & reliable.
+              However its complex development cycle results in infrequent updates and a tendency to lag behind the competition.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://debian.org">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              OpenSuSE
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-opensuse.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:orange">
+              INTERMEDIATE
+            </div>
+            <div class="mdl-card__supporting-text">
+              openSUSE is a rather general purpose operating system, built with stability and interoperability in mind.
+              openSUSE also boasts its own comprehensive and acclaimed configuration & administration tools.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://opensuse.org">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Fedora
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-fedora.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:orange">
+              INTERMEDIATE
+            </div>
+            <div class="mdl-card__supporting-text">
+              Fedora has reputation for being cutting-edge and taking an innovative role with open source technologies.
+              However, being bleeding edge means each Fedora release is not supported for very long.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://getfedora.org">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Arch Linux
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-arch-linux.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:red">
+              ADVANCED
+            </div>
+            <div class="mdl-card__supporting-text">
+              Arch Linux is lightweight & very customizable, however its installation process is definitely for an experienced user.
+              Arch's continuous update model can be taxing without the knowledge to fix any possible problems.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://archlinux.org">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title" >
+              Gentoo
+            </div>
+            <div class="mdl-card__media" align="center">
+              <img src="image/distro-gentoo.svg"></img>
+            </div>
+            <div class="mdl-card__actions" style="color:red">
+              ADVANCED
+            </div>
+            <div class="mdl-card__supporting-text">
+              Gentoo is a free operating system based on either Linux or FreeBSD that has extreme configurability, performance and a top-notch user and developer community.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://gentoo.org">
+                Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

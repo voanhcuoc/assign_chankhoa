@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Linux - Free Operating System
+  </title>
+  <!-- UI - material design -->
+  <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+  <script src="bower_components/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- make sure <audio> tag work -->
+  <script src="bower_components/mediaelement/build/jquery.js"></script>
+  <script src="bower_components/mediaelement/build/mediaelement-and-player.min.js"></script>
+  <link rel="stylesheet" href="bower_components/mediaelement/build/mediaelementplayer.min.css"/>
+  <style>
+  .demo-layout-transparent {
+    background: url('image/background.jpg') center / cover;
+  }
+  </style>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout demo-layout-transparent">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout-icon"></div>
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">Linux - Respect software freedom</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="distros.html">Distributions</a>
+          <a class="mdl-navigation__link" href="org.html">Organization</a>
+          <a class="mdl-navigation__link" href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout__title">Simple Layout</span>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--4-col">
+          <div class="mdl-card mdl-shadow--8dp" style="width:100%">
+            <div class="mdl-card__title">
+              An introduction about linux
+            </div>
+            <div class="mdl-card__media"><div align="center">
+              <iframe src="https://www.youtube.com/embed/_gCwCOhMcog" width="420" height="315">
+              </iframe>
+            </div></div>
+            <div class="mdl-card__supporting-text">
+              <h5>Topics Covered</h5>
+
+              <br>What is Linux
+              <br>Distributions
+              <br>Open Source Licensing
+              <br>Shells
+              <br>Significance of ROOT
+              <br>Importance of Capitalization
+              <br>Server vs. Desktop versions
+              <br>What Linux is best at
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+          <div class="mdl-card mdl-shadow--8dp" style="width:100%">
+            <div class="mdl-card__title mdl-card--border">
+              Guide for moving from Windows to Linux - © Going Linux Podcast
+            </div>
+            <div class="mdl-card__media" align="center">
+              <audio src="sound/glp009.mp3" preload="auto" controls />
+            </div>
+            <div class="mdl-card__supporting-text">
+              Topics focus on suggestions that might help switchers from Windows to adjust to the Linux environment. We discuss creating desktop icons, using the mouse, and other things you can do in Windows and how you can do them in Linux. We also overview how to get help for Linux and Linux applications, and how to get the most out of your distribution's support resources.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="http://goinglinux.com/shownotes.html#glp009">
+                Original
+              </a>
+            </div>
+          </div>
+          <div class="mdl-card" style="width:100%;margin-top:10px">
+            <div class="mdl-card__title">
+              Linus Torvalds - Linux kernel creator
+            </div>
+            <div class="mdl-card__media">
+              <img src="image/linus.gif" style="width:100%"></img>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Linus Benedict Torvalds ( born December 28, 1969) is a Finnish software engineer who is the creator and, for a long time, principal developer, of the Linux kernel; which became the kernel for operating systems such as the Linux operating system, Android and Chrome OS. He also created the distributed revision control system Git and the diving logging and planning software Subsurface. He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel". He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award.
+            </div>
+            <div class="mdl-card__actions">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Linus_Torvalds">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col" >
+          <div class="mdl-card" style="width:100%">
+            <div class="mdl-card__title">
+              The symbol of Linux - Tux
+            </div>
+            <div class="mdl-card__media">
+              <img src="image/penguin.png" width="100%"></img>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Tux is a penguin character and the official mascot of the Linux kernel. Originally created as an entry to a Linux logo competition, Tux is the most commonly used icon for Linux, although different Linux distributions depict Tux in various styles. The character is used in many other Linux programs and as a general symbol of Linux.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Tux">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script>
+  // using jQuery
+  $('video,audio').mediaelementplayer(/* Options */);
+  </script>
+</body>
+</html>
